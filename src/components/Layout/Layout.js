@@ -6,7 +6,7 @@ import Toolbar from '../Navigation/Toolbar/Toolbar';
 
 class Layout extends Component {
     state = {
-        showSideDrawer: true
+        showSideDrawer: false
     }
 
     sideDrawerClosedHandler = () => {
